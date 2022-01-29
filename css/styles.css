@@ -111,7 +111,16 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
   padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.header-link-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .header-link-mail:hover,
 .header-link-tel:hover,
 .header-link-mail:focus,
@@ -276,15 +285,21 @@ a {
 .team-social-link {
   width: 44px;
   height: 44px;
-  background: tomato;
   border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
 }
 
 .team-social-icon {
-  fill: #afb1b8;
+  fill: currentColor;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .team-social-item + .team-social-item {
