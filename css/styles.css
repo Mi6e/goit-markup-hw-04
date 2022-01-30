@@ -165,7 +165,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
   letter-spacing: 0.06em;
   color: #ffffff;
   min-width: 200px;
@@ -330,9 +329,6 @@ a {
 
 /* ----------------- clients-------------- */
 
-.clients {
-}
-
 .clients-title {
   font-weight: bold;
   font-size: 36px;
@@ -350,12 +346,6 @@ a {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .clients-item + .clients-item {
@@ -364,8 +354,13 @@ a {
 
 .clients-link {
   display: flex;
+  align-items: center;
   justify-content: center;
   color: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
 }
 
 .clients-logo {
@@ -375,6 +370,7 @@ a {
 .clients-link:hover,
 .clients-link:focus {
   color: #2196f3;
+  border-color: #2196f3;
 }
 
 /*-------------FOOTER---------------*/
