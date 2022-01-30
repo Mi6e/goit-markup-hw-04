@@ -138,7 +138,7 @@ a {
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  block-size: cover;
+
   flex-grow: 1;
   padding-top: 200px;
   padding-bottom: 200px;
